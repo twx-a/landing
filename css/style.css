@@ -1,0 +1,62 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+@import url('components/button.css');
+@import url('components/card.css');
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.text-center{
+  text-align: center;
+}
+
+.banner{
+  margin: 0;
+  margin-bottom: 20px;
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 220px;
+}
+
+.banner-description p{
+  color:grey;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.content{
+  margin: 40px 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer{
+  background-color: #2C2B2B;
+  padding: 50px;
+  color: rgb(150, 150, 150);
+}
+.footer > p ::before {
+  content: "<i class="fas fa-heart"></i>";
+  color: red;
+}
